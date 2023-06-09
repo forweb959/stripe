@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'stripe_example.urls'
+ROOT_URLCONF = 'stripii.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'stripe_example.wsgi.application'
+WSGI_APPLICATION = 'stripii.wsgi.application'
 
 
 # Database
